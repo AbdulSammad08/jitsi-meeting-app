@@ -1,0 +1,133 @@
+:root{
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --accent1: #4a90e2;
+  --accent2: #007aff;
+  --muted: #6b7280;
+  --text: #111827;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: var(--text);
+}
+
+.app-container {
+  max-width: 1100px;
+  margin: 24px auto;
+  padding: 20px;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  margin-bottom: 20px;
+}
+
+.brand {
+  display:flex;
+  gap:12px;
+  align-items:center;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 1.3rem;
+  color: var(--accent1);
+}
+
+.controls {
+  display:flex;
+  gap:10px;
+  align-items:center;
+}
+
+/* layout */
+.grid {
+  display:grid;
+  grid-template-columns: 1fr 420px;
+  gap: 20px;
+}
+
+/* card */
+.card {
+  background: var(--card);
+  border-radius: 14px;
+  padding: 18px;
+  box-shadow: 0 6px 18px rgba(16,24,40,0.06);
+}
+
+/* buttons */
+.btn {
+  padding: 10px 14px;
+  border-radius: 10px;
+  background: linear-gradient(135deg,var(--accent1),var(--accent2));
+  color: white;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.btn.ghost {
+  background: transparent;
+  border: 1px solid #e6e9ef;
+  color: var(--text);
+}
+
+/* form */
+.form input, .form select, .form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+  border: 1px solid #e6e9ef;
+  font-size: 14px;
+  background: transparent;
+}
+
+/* scheduled list */
+.meet-list {
+  display:flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.meet-item {
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px dashed #eef2ff;
+  background: linear-gradient(180deg, rgba(255,255,255,0.8),transparent);
+}
+
+/* small */
+.small {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+/* meeting container */
+.jitsi-wrapper {
+  height: 68vh;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* notification style */
+.notification-modal {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 320px;
+  z-index: 9999;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(2,6,23,0.2);
+  background: white;
+  padding: 16px;
+}

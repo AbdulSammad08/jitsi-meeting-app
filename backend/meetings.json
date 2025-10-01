@@ -1,0 +1,74 @@
+[
+  {
+    "id": "5f3389db-fea3-4b3b-878a-782833d9015c",
+    "title": "first test meeting ",
+    "hostName": "HS",
+    "date": "2025-08-08",
+    "time": "17:34",
+    "duration": "20",
+    "maxParticipants": 10,
+    "notes": "",
+    "roomName": "first-test-meeting--va8j68r8e",
+    "createdAt": "2025-08-08T12:33:20.927Z"
+  },
+  {
+    "id": "8cc434a9-d498-454d-bd82-72a40d1fffc5",
+    "title": "first test meeting ",
+    "hostName": "HS",
+    "date": "2025-08-08",
+    "time": "17:34",
+    "duration": "20",
+    "maxParticipants": 10,
+    "notes": "",
+    "roomName": "first-test-meeting--z0lybuehb",
+    "createdAt": "2025-08-08T12:33:22.673Z"
+  },
+  {
+    "id": "a474fcb4-526b-4a37-ab87-e0ce9066a373",
+    "title": "first test meeting ",
+    "hostName": "HS",
+    "date": "2025-08-08",
+    "time": "17:34",
+    "duration": "20",
+    "maxParticipants": 10,
+    "notes": "",
+    "roomName": "first-test-meeting--ziya1w11t",
+    "createdAt": "2025-08-08T12:33:23.296Z"
+  },
+  {
+    "id": "2e4cfb82-d62f-4541-95bd-b5e22e820b3a",
+    "title": "new meeting",
+    "hostName": "HS",
+    "date": "2025-08-08",
+    "time": "17:51",
+    "duration": "59",
+    "maxParticipants": 10,
+    "notes": "",
+    "roomName": "new-meeting-xjc7zire1",
+    "createdAt": "2025-08-08T12:51:13.582Z"
+  },
+  {
+    "id": "885f659d-0de8-4f99-88a9-153a73cefd22",
+    "title": "First Meeting - General Discussion",
+    "hostName": "Abdul Sammad",
+    "date": "2025-08-09",
+    "time": "12:10",
+    "duration": 60,
+    "maxParticipants": 10,
+    "notes": "",
+    "roomName": "first-meeting---general-discussion-me3wzuxo-lo2f",
+    "createdAt": "2025-08-09T07:09:42.108Z"
+  },
+  {
+    "id": "1cfe2544-0702-4c2d-8e8a-2483c406a8a7",
+    "title": "First Meeting - General Discussion",
+    "hostName": "Abdul Sammad",
+    "date": "2025-08-11",
+    "time": "09:52",
+    "duration": 60,
+    "maxParticipants": 10,
+    "notes": "",
+    "roomName": "first-meeting---general-discussion-me6mz3f9-fgtu",
+    "createdAt": "2025-08-11T04:52:28.821Z"
+  }
+]

@@ -1,0 +1,9 @@
+body.dark {
+  --bg: #0b1220;
+  --card: #0f1724;
+  --accent1: #5b8cff;
+  --accent2: #3a7cff;
+  --muted: #9aa4b2;
+  --text: #e6eef8;
+  background: var(--bg);
+}

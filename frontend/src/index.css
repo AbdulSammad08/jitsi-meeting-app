@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+}
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+.meeting-form, .meeting-card {
+  background: white;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 6px;
+}
+.dark-mode .meeting-form, .dark-mode .meeting-card {
+  background: #1f1f1f;
+}
+button {
+  margin: 0.5em;
+}

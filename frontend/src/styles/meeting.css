@@ -1,0 +1,8 @@
+.meeting-container {
+  width: 90%;
+  margin: 20px auto;
+  background: #f8f8f8;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.1);
+}
